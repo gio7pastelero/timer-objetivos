@@ -1,0 +1,58 @@
+:root {
+    --black: #000000;
+    --gray: #cacaca;
+    --gray-darker: #a5a5a5;
+    --white: #ffffff;
+}
+
+body {
+    background-color:var(--gray);
+}
+
+header {
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+header h1 {
+    font-size: 4rem;
+}
+
+header .the-team {
+    font-size: 1.25rem;
+}
+
+main {
+    width: 70%;
+    padding: 2rem;
+    margin: auto;
+    height: 100vh;
+    background-color: var(--white);
+}
+
+main h3 {
+    font-size: 2.25rem;
+}
+
+main .objectives, main .timer {
+display: flex;
+font-size: 1.25rem;
+margin: .75rem;
+}
+
+main .objectives div, main .timer div {
+    margin: 0 .25rem 0 .25rem;
+}
+
+main .timer div.unit {
+    background-color: var(--gray);
+    padding: 1rem;
+    border-radius: .25rem;
+}
+
+main .timer div.unit:hover {
+    background-color: var(--gray-darker);
+}
